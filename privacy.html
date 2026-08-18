@@ -1,39 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy — Reaset</title>
-  <meta name="description" content="How Reaset handles and protects personal information.">
-  <link rel="canonical" href="https://reaset.co/privacy.html">
+  <title>Reaset Privacy Policy - Reaset</title>
   <style>
-    :root{color-scheme:light;--ink:#0d0b12;--muted:#625f68;--paper:#fcfaf6;--line:#e3ddd5;--accent:#365c50}
-    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
-    header,main,footer{width:min(760px,calc(100% - 40px));margin:0 auto}header{padding:40px 0 24px;border-bottom:1px solid var(--line)}main{padding:12px 0 48px}footer{padding:24px 0 40px;border-top:1px solid var(--line);color:var(--muted)}
-    nav{display:flex;gap:18px;flex-wrap:wrap;margin-top:18px}a{color:var(--accent)}h1{font-family:Georgia,serif;font-size:clamp(38px,7vw,58px);line-height:1.05;margin:0}h2{font-size:22px;margin:32px 0 8px}p,li{font-size:16px}.lede{color:var(--muted);font-size:17px;margin:12px 0 0}
+    :root { color-scheme: light; --ink: #1c1c1e; --muted: #5f6368; --line: #d8d8de; --paper: #fbfaf8; --accent: #365c50; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: var(--ink); background: var(--paper); line-height: 1.55; }
+    header, main, footer { max-width: 760px; margin: 0 auto; padding: 24px; }
+    header { padding-top: 40px; border-bottom: 1px solid var(--line); }
+    nav { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 16px; }
+    a { color: var(--accent); }
+    h1 { font-size: 34px; line-height: 1.15; margin: 0 0 12px; }
+    h2 { font-size: 22px; margin-top: 32px; }
+    p, li { font-size: 16px; }
+    code { background: #ece9e2; border-radius: 4px; padding: 1px 5px; }
+    pre { overflow-x: auto; background: #ece9e2; border-radius: 8px; padding: 14px; }
+    footer { color: var(--muted); border-top: 1px solid var(--line); padding-bottom: 40px; }
   </style>
 </head>
 <body>
-  <header><h1>Privacy Policy</h1><p class="lede">How Reaset handles and protects your information.</p><nav><a href="/">Home</a><a href="/terms.html">Terms</a><a href="mailto:support@reaset.co">Support</a></nav></header>
+  <header>
+    <h1>Reaset Privacy Policy</h1>
+    <p>Reaset helps readers track reading, manage books, and build momentum.</p>
+    <nav>
+      <a href="./support.html">Support</a>
+      <a href="./privacy.html">Privacy Policy</a>
+      <a href="./terms.html">Terms</a>
+    </nav>
+  </header>
   <main>
-    <p><strong>Effective date:</strong> August 2, 2026.</p>
-    <p>Reaset helps readers track reading, manage books, discover bookstores, join reading circles, and receive reading reminders.</p>
-    <h2>Information We Collect</h2>
-    <ul><li>Account information: email address, name, handle, avatar, profile preferences, and the sign-in provider you choose. If you continue with Google, Google supplies the basic identity details you authorize, such as your name, email address, and profile image.</li><li>Reading data: books, shelves, reading sessions, goals, favourites, lists, reviews, and questionnaire results.</li><li>Circle data: circles joined or created, membership, and posts.</li><li>Notification data: reminder preferences and in-app notification state.</li><li>Bookstore discovery data: a city or area you search, or your foreground location when you explicitly tap “Near me,” is sent to our bookstore search service to return nearby bookstores. Reaset does not persist these searches or your current-location coordinates. Bookstores you save are stored with your account.</li><li>Diagnostic data: app version, build number, device model, operating-system version, an anonymous installation identifier, and crash or error details needed for reliability.</li></ul>
-    <h2>How We Use Information</h2>
-    <p>We use information to provide the app, sync data across sessions, restore your library after login, show recommendations, find bookstores in an area you choose, support reading circles, schedule reminders, investigate content reports, and improve reliability.</p>
-    <h2>Storage And Sync</h2>
-    <p>Reaset stores core reading data locally on your device for offline use. When signed in, data syncs with Supabase so it can be restored and kept consistent across sessions. Saved bookstores sync with your account. Bookstore search text and current-location coordinates are not saved to your Reaset account.</p>
-    <h2>Sharing</h2>
-    <p>We do not sell personal information. Circle posts and public profile information may be visible to other authenticated users according to the circle and profile features you use.</p>
-    <h2>Third-Party Services</h2>
-    <p>Reaset uses Supabase for authentication, database, storage, realtime sync, account deletion processing, and secure service gateways. If you choose Google sign-in, Google authenticates you and provides the basic identity details you authorize; Reaset does not receive your Google password. Reaset uses ISBNdb for book-search results and metadata. Reaset uses Geoapify and OpenStreetMap data to find bookstores in the area you choose. Geoapify processes the search request under its own privacy terms. Reaset uses Sentry for crash and error diagnostics. Sentry is configured without behavioral analytics, session replay, screenshots, view hierarchy, performance tracing, or default personally identifiable information.</p>
-    <p>Diagnostic reports are filtered to avoid sending account credentials, email addresses, profile names, book notes, reviews, quotes, chat text, search text, and imported file contents.</p>
-    <h2>Your Choices</h2>
-    <p>You can use city or area search without granting location access, deny or revoke location permission in iOS Settings, remove saved bookstores, edit profile information, sign out, export data, and permanently delete your account from the app. Account deletion removes the Supabase Auth account, account-backed database rows, and uploaded avatars or Circle banners. Reaset also cancels the daily reminder and clears account-scoped data, reading positions, and active timers stored by the app on that device. Deletion cannot be undone.</p>
-    <h2>Contact</h2>
-    <p>Email <a href="mailto:support@reaset.co">support@reaset.co</a>. We aim to reply within two business days. Do not send passwords, authentication codes, or other secrets.</p>
+<h1>Reaset Privacy Policy</h1>
+<p>Effective date: August 18, 2026.</p>
+<p>Reaset helps readers track reading, manage books, discover bookstores, join reading circles, and receive reading reminders.</p>
+<h2>Information We Collect</h2>
+<ul><li>Account information: email address, name, handle, avatar, profile preferences, and the sign-in provider you choose. If you continue with Google, Google supplies the basic identity details you authorize, such as your name, email address, and profile image.</li><li>Reading data: books, shelves, reading sessions, goals, favourites, lists, reviews, and questionnaire results.</li><li>Circle data: circles joined or created, membership, and posts.</li><li>Newsletter data: if you choose to subscribe on the Reaset website, we collect your email address and subscription status to send reading ideas, product updates, and Reaset news.</li><li>Notification data: reminder preferences, in-app notification state, and only when background Circle notifications are enabled, an Expo push token linked to your account and anonymous installation identifier.</li><li>Search data: book-search terms are sent through Reaset's protected service to ISBNdb to return book results. Reaset stores only a one-way cache key and normalized result metadata, not the raw search term or a search history tied to your account.</li><li>Bookstore discovery data: a city or area you search, or your foreground location when you explicitly tap “Near me,” is sent through Reaset's protected service to return nearby bookstores. Reaset does not persist the raw search or current-location coordinates. Bookstores you choose to save are stored with your account.</li><li>Subscription data: Apple and RevenueCat process subscription products, receipts, eligibility, purchase history, and entitlement status. Reaset associates the RevenueCat customer record with your Reaset account identifier so Premium access can be restored across sessions. Reaset does not receive your payment-card details.</li><li>Diagnostic data: app version, build number, device model, operating-system version, an anonymous installation identifier, and crash or error details needed for reliability.</li></ul>
+<h2>How We Use Information</h2>
+<p>We use information to provide the app, sync data across sessions, restore your library after login, show recommendations, return book and bookstore searches, support reading circles, deliver notifications you enable, validate and restore Premium access, investigate content reports, and improve reliability. RevenueCat also uses purchase history for subscription analytics such as customer history and aggregate subscription reporting.</p>
+<h2>Storage And Sync</h2>
+<p>Reaset stores core reading data locally on your device for offline use. When signed in, data syncs with Supabase so it can be restored and kept consistent across sessions. Saved bookstores and subscription entitlement state are associated with your account. Raw book-search terms, bookstore-search text, and current-location coordinates are not saved to your Reaset account.</p>
+<h2>Sharing</h2>
+<p>We do not sell personal information. Circle posts and public profile information may be visible to other authenticated users according to the circle and profile features you use.</p>
+<h2>Third-Party Services</h2>
+<p>Reaset uses Supabase for authentication, database, storage, realtime sync, account deletion processing, notification delivery, and secure service gateways. Kit processes newsletter email addresses and subscription status and delivers newsletters on Reaset's behalf. Expo Push Service and Apple Push Notification service deliver background alerts you enable. Apple processes App Store subscriptions, and RevenueCat validates receipts, manages entitlement status, and provides subscription reporting. If you choose Google sign-in, Google authenticates you and provides the basic identity details you authorize; Reaset does not receive your Google password. Reaset sends book-search terms to ISBNdb through its protected service to obtain search results and metadata. Geoapify receives the city/area query or coordinates needed to return nearby bookstores; Geoapify states that successful API-request details are generally retained for up to 24 hours. When configured, Foursquare also receives bookstore-search coordinates through Reaset's server to return licensed bookstore photos. These requests do not include your Reaset account identifier. OpenStreetMap data supports bookstore results and attribution. Reaset uses Sentry for crash and error diagnostics. Sentry is configured without behavioral analytics, session replay, screenshots, view hierarchy, performance tracing, or default personally identifiable information.</p>
+<p>Reaset requires service providers that process data on its behalf to protect it consistently with this policy and applicable privacy requirements, and to use it only to provide or secure their services. Providers may process data in the countries where they operate, subject to their contractual and legal safeguards.</p>
+<p>Diagnostic reports are filtered to avoid sending account credentials, email addresses, profile names, book notes, reviews, quotes, chat text, search text, and imported file contents.</p>
+<h2>Retention And Deletion</h2>
+<p>Account-backed data is retained while your account is active so Reaset can provide and synchronize the service. Newsletter data is retained by Kit while you remain subscribed and as needed to maintain unsubscribe records. When you permanently delete your account in the app, Reaset deletes the Supabase Auth account, account-backed database rows, and uploaded avatars or Circle banners, and clears account-scoped data from that device. Operational backups, security records, diagnostic events, subscription transaction records held by Apple or RevenueCat, and records required for fraud prevention, legal compliance, or dispute resolution may remain for the limited periods required by the applicable provider or law. Raw book-search terms, bookstore-search text, and current-location coordinates are not retained by Reaset after the request is serviced; third-party request logs follow the provider practices described above.</p>
+<h2>Your Choices</h2>
+<p>You can use city/area search without granting location access, deny or revoke location or notification permission in iOS Settings, turn individual notifications off, remove saved bookstores, edit profile information, sign out, export data, and permanently delete your account from the app. You can unsubscribe from the newsletter at any time using the link included in every newsletter. You can manage an App Store subscription through Apple and revoke Google access from your Google Account. Push tokens are removed on sign-out or account deletion and disabled when the push provider reports that the installation is no longer registered. Account deletion also cancels reading reminders and clears account-scoped data, reading positions, and active timers stored by the app on that device. Deletion cannot be undone.</p>
+<h2>Children</h2>
+<p>Reaset is not intended for children under 13. If you believe a child under 13 provided personal information, contact support@reaset.co so it can be investigated and deleted where required.</p>
+<h2>Contact</h2>
+<p>Email support@reaset.co. We aim to reply within two business days. Do not send passwords, authentication codes, or other secrets.</p>
   </main>
-  <footer>© 2026 Reaset. All rights reserved.</footer>
+  <footer>Reaset release pages generated from repository docs.</footer>
 </body>
 </html>
