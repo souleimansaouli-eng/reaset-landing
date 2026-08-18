@@ -3,40 +3,37 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Reaset Support - Reaset</title>
-  <style>
-    :root { color-scheme: light; --ink: #1c1c1e; --muted: #5f6368; --line: #d8d8de; --paper: #fbfaf8; --accent: #365c50; }
-    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: var(--ink); background: var(--paper); line-height: 1.55; }
-    header, main, footer { max-width: 760px; margin: 0 auto; padding: 24px; }
-    header { padding-top: 40px; border-bottom: 1px solid var(--line); }
-    nav { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 16px; }
-    a { color: var(--accent); }
-    h1 { font-size: 34px; line-height: 1.15; margin: 0 0 12px; }
-    h2 { font-size: 22px; margin-top: 32px; }
-    p, li { font-size: 16px; }
-    code { background: #ece9e2; border-radius: 4px; padding: 1px 5px; }
-    pre { overflow-x: auto; background: #ece9e2; border-radius: 8px; padding: 14px; }
-    footer { color: var(--muted); border-top: 1px solid var(--line); padding-bottom: 40px; }
-  </style>
+  <meta name="theme-color" content="#227dc7">
+  <meta name="description" content="Get support for Reaset, including account, reading data, reminders, and Circle reporting help.">
+  <link rel="canonical" href="https://reaset.co/support">
+  <link rel="icon" href="./assets/icon.png">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./legal.css">
+  <title>Support | Reaset</title>
 </head>
-<body>
-  <header>
-    <h1>Reaset Support</h1>
-    <p>Reaset helps readers track reading, manage books, and build momentum.</p>
-    <nav>
-      <a href="./support.html">Support</a>
-      <a href="./privacy.html">Privacy Policy</a>
-      <a href="./terms.html">Terms</a>
-    </nav>
+<body class="legal-page legal-page-support">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="./" aria-label="Reaset home"><span class="brand-logo" aria-hidden="true"></span></a>
+    <nav class="desktop-nav" aria-label="Main navigation"><a href="./">Home</a><a href="./privacy">Privacy</a><a href="./terms">Terms</a></nav>
+    <a class="header-cta download-cta" href="mailto:support@reaset.co">Email support</a>
   </header>
-  <main>
-<h1>Reaset Support</h1>
-<p>Email support@reaset.co for help with Reaset. We aim to reply within two business days. Beta testers may also send feedback through TestFlight.</p>
+  <main id="main">
+    <section class="legal-hero">
+      <div class="legal-hero-copy"><p class="legal-kicker">Help when you need it</p><h1>Let’s get you back to your book.</h1><p>Account questions, reading-data help, and everything in between—reach the Reaset team directly.</p></div>
+      <img class="legal-hero-art" src="./assets/artifacts/54.png" width="480" height="480" alt="" aria-hidden="true">
+    </section>
+    <div class="legal-layout">
+      <aside class="legal-sidebar"><p>Reaset resources</p><nav aria-label="Support pages"><a href="./support" aria-current="page">Support</a><a href="./privacy">Privacy</a><a href="./terms">Terms</a></nav></aside>
+      <article class="legal-content">
+<div class="support-intro"><p>Email us for help with Reaset. We aim to reply within two business days. Beta testers may also send feedback through TestFlight.</p><a class="support-email" href="mailto:support@reaset.co">support@reaset.co</a></div>
 <h2>Common Requests</h2>
-<ul><li>Account deletion: permanently delete your account from Settings in the app.</li><li>Data export: export reading data from Settings in the app.</li><li>Reading reminders: manage local reminder settings from the reminder settings screen.</li><li>Content reports: use Report beneath a circle message, or email support@reaset.co.</li><li>Privacy questions: review the Privacy Policy linked on this page.</li></ul>
+<ul class="request-grid"><li><strong>Account deletion</strong><br>Permanently delete your account from Settings in the app.</li><li><strong>Data export</strong><br>Export your reading data from Settings in the app.</li><li><strong>Reading reminders</strong><br>Manage local reminder settings from the reminder settings screen.</li><li><strong>Content reports</strong><br>Use Report beneath a Circle message, or email us.</li><li><strong>Privacy questions</strong><br>Review the <a href="./privacy">Privacy Policy</a> or contact support.</li></ul>
 <h2>Support Notes</h2>
 <p>Never include passwords, authentication codes, or other secrets. Include the app version and build number, device model, iOS version, what you were trying to do, what happened, and steps that reproduce the problem. For account help, include only the email address used for Reaset.</p>
+      </article>
+    </div>
   </main>
-  <footer>Reaset release pages generated from repository docs.</footer>
+  <footer class="legal-footer"><div class="legal-footer-inner"><a href="./" aria-label="Reaset home"><span class="brand-logo" aria-hidden="true"></span></a><nav aria-label="Footer navigation"><a href="./support">Support</a><a href="./privacy">Privacy</a><a href="./terms">Terms</a></nav></div></footer>
 </body>
 </html>
